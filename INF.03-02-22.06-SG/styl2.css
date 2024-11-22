@@ -1,0 +1,68 @@
+body {
+    font-family: Cambria;
+}
+
+div {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+}
+
+.baner, .stopka {
+    background-color: rgb(120, 0, 46);
+
+    text-align: center;
+
+    color: white;
+    font-size: 150%;
+
+    padding: 5px;
+    
+}
+
+.menu {
+    background-color: rgb(173, 20, 87);
+    text-align: left;
+}
+
+.lewy {
+    background-color: snow;
+    color: olivedrab;
+
+    width: 60%;
+    height: 322px;
+    text-align: left;
+}
+
+.prawy {
+    background-color: rgb(173, 20, 87);
+
+    width: 40%;
+    height: 322px;
+}
+
+.prawy > img {
+    margin: 40px;
+    padding: 10px;
+}
+
+.prawy > img:hover {
+    border: 1px dotted yellowgreen;
+}
+
+a {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+table, td, th {
+    border: 1px solid olivedrab;
+}
+
+table {
+    width: 90%;
+}
